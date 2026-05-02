@@ -49,6 +49,11 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
 附母校相关图片欣赏
 <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="display: flex; gap: 10px;">
+        <img src="images/whut-overall-poster.png" style="height:200px; object-fit:cover; flex:1;">
+        <img src="images/whut-overall-poster.png" style="height:200px; object-fit:cover; flex:1;">
+
+  </div>
 
   <div style="display: flex; gap: 10px;">
     <img src="武汉理工大学.jpeg" style="height:200px; object-fit:cover; flex:1;">
@@ -95,10 +100,7 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
   </div>
 
-  <div style="display: flex; gap: 10px;">
-        <img src="images/whut-overall-poster.png" style="height:200px; object-fit:cover; flex:1;">
 
-  </div>
 
   <div style="display: flex; gap: 10px;">
     <img src="images/whlt-admin.webp" style="height:200px; object-fit:cover; flex:1;">
