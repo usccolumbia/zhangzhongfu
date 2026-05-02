@@ -82,8 +82,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="gate1.jpg" style="height:200px; object-fit:cover; flex:1;">
-    <img src="gate2.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate1.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate2.jpg" style="height:200px; object-fit:cover; flex:1;">
   </div>
   
 </div>
