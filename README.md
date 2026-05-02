@@ -113,8 +113,9 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
           <img src="images/gate2huashida.jpg" style="height:200px; object-fit:cover; flex:1;">
           <img src="images/gate13.jpg" style="height:200px; object-fit:cover; flex:1;">
-    
-  </div>
+                <img src="images/马房山校区东院机电大楼.jpeg" style="height:200px; object-fit:cover; flex:1;">
+
+      </div>
   
 </div>
 
