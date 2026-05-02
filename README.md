@@ -77,14 +77,14 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="武汉工学院 体育馆.jpg" style="height:200px; object-fit:cover; flex:1;">
     <img src="武汉工业大学校门.jpeg@660x440" style="height:200px; object-fit:cover; flex:1;">
-                   <img src="images/马房山校区东院机电大楼.jpeg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/马房山校区东院机电大楼.jpeg" style="height:200px; object-fit:cover; flex:1;">
    
   </div>
 
   <div style="display: flex; gap: 10px;">
     <img src="桂竹园.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="zhangtalk.png" style="height:200px; object-fit:cover; flex:1;">
-            <img src="武汉工学院.jpg" style="width:260px; object-fit:cover; flex:1;">
+    <img src="武汉工学院.jpg" style="width:260px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
@@ -101,7 +101,6 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
     <img src="images/whlg-meeting.webp" style="height:200px; object-fit:cover; flex:1;">
      <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/whlg-campuses.webp" style="width:230px; object-fit:cover; flex:1;">
-
   </div>
 
 
@@ -109,15 +108,12 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
         <img src="images/南湖校区大学生创新创业园.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" style="width:250px; object-fit:cover; flex:1;">
-
-
   </div>
 
   <div style="display: flex; gap: 10px;">
           <img src="images/gate2huashida.jpg" style="height:200px; object-fit:cover; flex:1;">
           <img src="images/gate13.jpg" style="height:200px; object-fit:cover; flex:1;">
-
-      </div>
+  </div>
   
 </div>
 
