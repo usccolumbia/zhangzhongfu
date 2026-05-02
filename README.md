@@ -85,6 +85,31 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
     <img src="images/gate1.jpg" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/gate2.jpg" style="height:200px; object-fit:cover; flex:1;">
   </div>
+
+    <div style="display: flex; gap: 10px;">
+    <img src="images/gate3.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate4.jpg" style="height:200px; object-fit:cover; flex:1;">
+  </div>
+
+    <div style="display: flex; gap: 10px;">
+    <img src="images/gate5.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate6.jpg" style="height:200px; object-fit:cover; flex:1;">
+  </div>
+
+    <div style="display: flex; gap: 10px;">
+    <img src="images/gate7.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate8.jpg" style="height:200px; object-fit:cover; flex:1;">
+  </div>
+
+    <div style="display: flex; gap: 10px;">
+    <img src="images/gate9.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate10.jpg" style="height:200px; object-fit:cover; flex:1;">
+  </div>
+
+    <div style="display: flex; gap: 10px;">
+    <img src="images/gate11.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate12.jpg" style="height:200px; object-fit:cover; flex:1;">
+  </div>
   
 </div>
 
