@@ -115,71 +115,71 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 ===
 <div align="center">
 
-<!-- Row 1 -->
+<!-- Row 1 (2 wide images) -->
 <p>
-  <img src="武汉理工大学.jpeg" height="260">
-  <img src="武汉理工大学校门.webp" height="260">
+  <img src="武汉理工大学.jpeg" width="49%">
+  <img src="武汉理工大学校门.webp" width="49%">
 </p>
 
-<!-- Row 2 -->
+<!-- Row 2 (3 medium images) -->
 <p>
-  <img src="武汉理工大学 新图书馆.webp" height="260">
-  <img src="武汉工学院.jpg" height="260">
-  <img src="武汉工学院 腾飞广场.jpeg" height="260">
+  <img src="武汉理工大学 新图书馆.webp" width="32%">
+  <img src="武汉工学院.jpg" width="32%">
+  <img src="武汉工学院 腾飞广场.jpeg" width="32%">
 </p>
 
 <!-- Row 3 -->
 <p>
-  <img src="武汉工学院-图书馆.png" height="260">
-  <img src="wuhanligong.jpg" height="260">
+  <img src="武汉工学院-图书馆.png" width="49%">
+  <img src="wuhanligong.jpg" width="49%">
 </p>
 
 <!-- Row 4 -->
 <p>
-  <img src="武汉工学院 体育馆.jpg" height="260">
-  <img src="武汉工业大学校门.jpeg@660x440" height="260">
+  <img src="武汉工学院 体育馆.jpg" width="49%">
+  <img src="武汉工业大学校门.jpeg@660x440" width="49%">
 </p>
 
 <!-- Row 5 -->
 <p>
-  <img src="桂竹园.webp" height="260">
-  <img src="zhangtalk.png" height="260">
-  <img src="武汉理工大学校徽.png" height="260">
+  <img src="桂竹园.webp" width="32%">
+  <img src="zhangtalk.png" width="32%">
+  <img src="武汉理工大学校徽.png" width="32%">
 </p>
 
 <!-- Row 6 -->
 <p>
-  <img src="images/gate1.jpg" height="260">
-  <img src="images/gate2.jpg" height="260">
+  <img src="images/gate1.jpg" width="49%">
+  <img src="images/gate2.jpg" width="49%">
 </p>
 
 <!-- Row 7 -->
 <p>
-  <img src="images/whlg-building.jpg" height="260">
-  <img src="images/whlg-auto.webp" height="260">
-  <img src="images/whlg-campuses.webp" height="260">
+  <img src="images/whlg-building.jpg" width="32%">
+  <img src="images/whlg-auto.webp" width="32%">
+  <img src="images/whlg-campuses.webp" width="32%">
 </p>
 
 <!-- Row 8 -->
 <p>
-  <img src="images/whlg-meeting.webp" height="260">
-  <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" height="260">
+  <img src="images/whlg-meeting.webp" width="49%">
+  <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" width="49%">
 </p>
 
-<!-- Row 9 -->
+<!-- Row 9 (single centered) -->
 <p>
-  <img src="images/whlg-history.webp" height="260">
+  <img src="images/whlg-history.webp" width="70%">
 </p>
 
 <!-- Row 10 -->
 <p>
-  <img src="images/whlt-admin.webp" height="260">
-  <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" height="260">
+  <img src="images/whlt-admin.webp" width="49%">
+  <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" width="49%">
 </p>
 
 <!-- Row 11 -->
 <p>
-  <img src="images/南湖校区大学生创新创业园.webp" height="260">
+  <img src="images/南湖校区大学生创新创业园.webp" width="70%">
 </p>
 
 </div>
