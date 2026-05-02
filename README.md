@@ -115,6 +115,16 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
           <img src="images/gate13.jpg" style="height:200px; object-fit:cover; flex:1;">
           <img src="images/campus2.png" style="height:200px; object-fit:cover; flex:1;">
   </div>
+
+    <div style="display: flex; gap: 10px;">
+          <img src="images/lib1.jpg" style="height:200px; object-fit:cover; flex:1;">
+          <img src="images/lib2.jpg" style="height:200px; object-fit:cover; flex:1;">
+          <img src="images/lib3.png" style="height:200px; object-fit:cover; flex:1;">
+          <img src="images/lib4.png" style="height:200px; object-fit:cover; flex:1;">
+          <img src="images/lib5.png" style="height:200px; object-fit:cover; flex:1;">
+          <img src="images/lib6.png" style="height:200px; object-fit:cover; flex:1;">
+
+  </div>
   
 </div>
 
