@@ -70,8 +70,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="wuhanligong.jpg" style="height:225px; object-fit:cover; flex:1;">
-    <img src="images/whlg-auto.webp" style="height:225px; object-fit:cover; flex:1;">
+    <img src="wuhanligong.jpg" style="height:220px; object-fit:cover; flex:1;">
+    <img src="images/whlg-auto.webp" style="height:220px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
