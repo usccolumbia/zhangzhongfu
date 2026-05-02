@@ -96,6 +96,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
+        <img src="images/whut-overall-poster.png" style="height:200px; object-fit:cover; flex:1;">
+
   </div>
 
   <div style="display: flex; gap: 10px;">
@@ -113,75 +115,5 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
 
 ===
-<div align="center">
-
-<!-- Row 1 -->
-<p>
-  <img src="武汉理工大学.jpeg" height="240" style="margin:3px;">
-  <img src="武汉理工大学校门.webp" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 2 -->
-<p>
-  <img src="武汉理工大学 新图书馆.webp" height="240" style="margin:3px;">
-  <img src="武汉工学院.jpg" height="240" style="margin:3px;">
-  <img src="武汉工学院 腾飞广场.jpeg" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 3 -->
-<p>
-  <img src="武汉工学院-图书馆.png" height="240" style="margin:3px;">
-  <img src="wuhanligong.jpg" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 4 -->
-<p>
-  <img src="武汉工学院 体育馆.jpg" height="240" style="margin:3px;">
-  <img src="武汉工业大学校门.jpeg@660x440" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 5 -->
-<p>
-  <img src="桂竹园.webp" height="240" style="margin:3px;">
-  <img src="zhangtalk.png" height="240" style="margin:3px;">
-  <img src="武汉理工大学校徽.png" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 6 -->
-<p>
-  <img src="images/gate1.jpg" height="240" style="margin:3px;">
-  <img src="images/gate2.jpg" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 7 -->
-<p>
-  <img src="images/whlg-building.jpg" height="240" style="margin:3px;">
-  <img src="images/whlg-auto.webp" height="240" style="margin:3px;">
-  <img src="images/whlg-campuses.webp" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 8 -->
-<p>
-  <img src="images/whlg-meeting.webp" height="240" style="margin:3px;">
-  <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 9 -->
-<p>
-  <img src="images/whlg-history.webp" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 10 -->
-<p>
-  <img src="images/whlt-admin.webp" height="240" style="margin:3px;">
-  <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" height="240" style="margin:3px;">
-</p>
-
-<!-- Row 11 -->
-<p>
-  <img src="images/南湖校区大学生创新创业园.webp" height="240" style="margin:3px;">
-</p>
-
-</div>
 
 
