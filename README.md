@@ -104,8 +104,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
 
   <div style="display: flex; gap: 10px;">
-    <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" style="height:200px; object-fit:cover; flex:1;">
         <img src="images/南湖校区大学生创新创业园.webp" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" style="width:200px; object-fit:cover; flex:1;">
 
 
   </div>
