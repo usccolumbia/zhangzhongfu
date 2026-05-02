@@ -51,7 +51,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 <div style="display: flex; flex-direction: column; gap: 12px;">
     <div style="display: flex; gap: 10px;">
         <img src="images/whut-overall-poster.png" style="height:200px; object-fit:cover; flex:1;">
-        <img src="images/whut-overall-poster.png" style="height:200px; object-fit:cover; flex:1;">
+        <img src="images/whlt-admin.webp" style="height:200px; object-fit:cover; flex:1;">
+         <img src="images/whlg-history.webp" style="height:200px; object-fit:cover; flex:1;">
 
   </div>
 
@@ -96,14 +97,12 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="images/whlg-meeting.webp" style="height:200px; object-fit:cover; flex:1;">
      <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" style="height:200px; object-fit:cover; flex:1;">
-     <img src="images/whlg-history.webp" style="height:200px; object-fit:cover; flex:1;">
 
   </div>
 
 
 
   <div style="display: flex; gap: 10px;">
-    <img src="images/whlt-admin.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/whlg-campuses.webp" style="height:200px; object-fit:cover; flex:1;">
 
