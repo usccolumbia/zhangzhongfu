@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中国材料学江湖英雄谱</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --ink-light: #3d2b0f;
+    --ink-faint: #6b4c1e;
+    --paper: #f5eed8;
+    --paper-dark: #ede0bc;
+    --paper-deep: #d4c49a;
+    --red: #8b1a1a;
+    --red-light: #c0392b;
+    --gold: #b8860b;
+    --gold-light: #d4a017;
+    --border: #b8993a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #2c1810;
+    background-image:
+      repeating-linear-gradient(90deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 40px, rgba(0,0,0,0.03) 41px),
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 40px, rgba(0,0,0,0.03) 41px);
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Noto Serif SC', 'STSong', serif;
+  }
+
+  .scroll-container {
+    max-width: 860px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* Top & bottom roller */
+  .roller {
+    height: 28px;
+    background: linear-gradient(180deg, #5c3a1e 0%, #8b5e2e 40%, #6b4318 60%, #3d2010 100%);
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.1);
+    z-index: 2;
+  }
+  .roller::before, .roller::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    background: radial-gradient(circle at 40% 35%, #c8903a, #7a4a18 60%, #3d2010);
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.15);
+  }
+  .roller::before { left: -8px; }
+  .roller::after { right: -8px; }
+
+  /* Main scroll body */
+  .scroll-body {
+    background: var(--paper);
+    background-image:
+      linear-gradient(180deg, var(--paper-dark) 0%, var(--paper) 3%, var(--paper) 97%, var(--paper-dark) 100%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23f5eed8'/%3E%3Ccircle cx='1' cy='1' r='0.4' fill='%23d4c49a' opacity='0.3'/%3E%3C/svg%3E");
+    border-left: 4px solid var(--paper-deep);
+    border-right: 4px solid var(--paper-deep);
+    padding: 50px 70px;
+    position: relative;
+    box-shadow: inset 0 0 80px rgba(0,0,0,0.08);
+  }
+
+  /* Vertical red margin lines */
+  .scroll-body::before {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 54px;
+    width: 1px;
+    background: rgba(139,26,26,0.25);
+  }
+  .scroll-body::after {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0;
+    right: 54px;
+    width: 1px;
+    background: rgba(139,26,26,0.25);
+  }
+
+  /* Typography */
+  h1 {
+    font-family: 'Ma Shan Zheng', 'ZCOOL XiaoWei', 'STKaiti', serif;
+    font-size: 2.4em;
+    color: var(--red);
+    text-align: center;
+    letter-spacing: 0.15em;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
+  }
+
+  h2:first-of-type {
+    font-size: 1em;
+    color: var(--ink-faint);
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: 'ZCOOL XiaoWei', 'STKaiti', serif;
+    font-size: 1.25em;
+    color: var(--red);
+    margin: 48px 0 12px;
+    padding: 10px 0 10px 16px;
+    border-left: 4px solid var(--red);
+    border-bottom: 1px solid rgba(139,26,26,0.2);
+    letter-spacing: 0.08em;
+    background: linear-gradient(90deg, rgba(139,26,26,0.05) 0%, transparent 70%);
+  }
+
+  h3 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.08em;
+    color: var(--ink-light);
+    margin: 34px 0 6px;
+    padding: 6px 12px;
+    border-left: 3px solid var(--gold);
+    background: linear-gradient(90deg, rgba(184,134,11,0.08) 0%, transparent 60%);
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    color: var(--ink);
+    font-size: 0.97em;
+    line-height: 2;
+    margin: 10px 0;
+    letter-spacing: 0.04em;
+    text-align: justify;
+  }
+
+  strong {
+    color: var(--ink-light);
+    font-weight: 700;
+  }
+
+  blockquote {
+    margin: 18px 0;
+    padding: 14px 20px;
+    border-left: 3px solid var(--gold);
+    background: rgba(184,134,11,0.06);
+    border-radius: 0 4px 4px 0;
+  }
+  blockquote p {
+    color: var(--ink-faint);
+    font-size: 0.93em;
+    font-style: italic;
+    line-height: 1.9;
+    margin: 0;
+  }
+  blockquote strong {
+    color: var(--ink-faint);
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+    margin: 32px 0;
+    opacity: 0.5;
+  }
+
+  em { color: var(--ink-faint); font-style: italic; }
+
+  /* Seal stamp decoration */
+  .seal {
+    text-align: center;
+    margin: 40px 0 10px;
+  }
+  .seal-inner {
+    display: inline-block;
+    border: 2px solid var(--red);
+    padding: 8px 20px;
+    color: var(--red);
+    font-family: 'Ma Shan Zheng', serif;
+    font-size: 0.85em;
+    letter-spacing: 0.3em;
+    opacity: 0.6;
+    transform: rotate(-2deg);
+  }
+
+  /* Chapter number badge */
+  h2::before {
+    content: attr(data-num);
+  }
+
+  /* Decorative top ornament */
+  .ornament {
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--gold);
+    letter-spacing: 0.8em;
+    margin: 0 0 30px;
+    opacity: 0.7;
+  }
+
+  /* Finale poem box */
+  .finale-poem {
+    margin: 24px auto;
+    max-width: 420px;
+    padding: 20px 30px;
+    border: 1px solid var(--border);
+    background: rgba(184,134,11,0.04);
+    text-align: center;
+  }
+  .finale-poem p {
+    text-align: center;
+    line-height: 2.4;
+    color: var(--ink-faint);
+    font-size: 0.95em;
+  }
+
+  /* Footer note */
+  .footer-note {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--paper-deep);
+    color: var(--ink-faint);
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+  }
+
+  @media (max-width: 600px) {
+    .scroll-body { padding: 30px 28px; }
+    h1 { font-size: 1.7em; }
+  }
+</style>
+</head>
+<body>
+<div class="scroll-container">
+  <div class="roller"></div>
+  <div class="scroll-body">
+    <div class="ornament">❖ ❖ ❖</div>
+    <h1>《中国材料学江湖英雄谱》</h1>
+<h2>——且看谁执材料界牛耳，笑傲神州学林风云</h2>
+<hr />
+<blockquote>
+<p><strong>楔子</strong></p>
+<p>江湖，从不只在刀光剑影处。<br />
+实验室的烧结炉里，有乾坤；质谱仪的峰值里，有锋芒；《Nature》期刊的版面上，刀光纸上，字字见血。<br />
+若问当今中国材料学江湖，谁人称雄？请听本谱细细道来。</p>
+</blockquote>
+<hr />
+<h2>第一卷·武汉理工门派 ：「建材帮」蜕变成「神工盟」</h2>
+<p><strong>帮主身份：A+双认证，传统建材起家</strong></p>
+<p>话说湖北武汉，有一门派，外号「水泥帮」。<br />
+外人看它，以为不过是和水泥、砖瓦打了一辈子交道的老派门楼。<br />
+然而此派韬光养晦，暗中积蓄高手，如今已悄然晋升为材料学江湖的<strong>全国 A+ 顶级宗门</strong>。<br />
+正所谓：「人不可貌相，门不可建材相。」</p>
+<p>此派能成大器，全靠四大镇门神将——</p>
+<hr />
+<h3>第一神将·「掌门奠基人」张清杰院士</h3>
+<p><strong>外号：废热炼金老人、深空掌柜</strong></p>
+<p>张老爷子早年扛起武汉理工的招牌，干的却是让旁人瞠目结舌的买卖——<strong>把废热变成电</strong>。</p>
+<p>普通人烤火取暖，张院士烤火发电。<br />
+此乃「热电神功」：利用温度差驱动电流，将无处安放的废热悉数收割。<br />
+旁人以为这不过是小打小闹，直到有一天，中国的<strong>深空探测器</strong>（那家伙要飞到太阳系边缘，可没电线插座给它充电）开机亮灯——用的，正是张院士团队制备的同位素温差电池核心热电材料。</p>
+<p>消息传出，江湖震动。众人这才明白：原来老爷子搞的不是什么省电节能的小玩意，而是<strong>给宇宙飞船装心脏</strong>。</p>
+<p>某门派弟子私下叹道：「人家卖水泥，我们只能盖房子。人家卖热电材料，人家飞出银河系。」</p>
+<hr />
+<h3>第二神将·「铸剑师」傅正义院士</h3>
+<p><strong>外号：五秒造甲、陶瓷战神</strong></p>
+<p>江湖有言：「北有锻剑师，南有傅正义。」</p>
+<p>傅院士一生只做一件事：<strong>把陶瓷烧得比钢铁还狠</strong>。</p>
+<p>传统制陶，从原料到成品，少则数日，多则数周，耗能惊人。<br />
+傅院士偏不，他自创「超快烧结秘法」：同样的陶瓷，他能在极短时间内以极端手段完成烧结，所得之物——硬度惊人、强度爆表。</p>
+<p>这有何用？</p>
+<p>坦克装甲上那块又轻又硬的防弹陶瓷板，背后便有傅院士的手笔。<br />
+航空发动机里那些能扛住高温地狱的陶瓷部件，也与其研究一脉相承。</p>
+<p>有人戏称：「傅院士一出手，坦克穿防弹衣，发动机穿陶瓷袍。」</p>
+<p>傅老爷子闻言，只是淡淡一笑，转身又进了实验室。</p>
+<hr />
+<h3>第三神将·「顶刊战神」余家国教授</h3>
+<p><strong>外号：排名收割机、欧洲来的引用王</strong></p>
+<p>江湖排名靠引用，高被引者得天下。</p>
+<p>余家国教授在这一条路上，走出了一条凡人难以企及的大道。</p>
+<p>他的研究方向是<strong>光催化</strong>——简单说，就是用太阳光照射某种材料，让这材料把水劈成氢气，或把二氧化碳变成化学品。<br />
+这个愿景简直像武侠小说里的「化腐朽为神奇」神功：空气和阳光，变成清洁能源。</p>
+<p>余教授的论文年年霸榜「科睿唯安全球高被引科学家」名单，<strong>化学与材料双料上榜</strong>，如同在两个门派都考取武林盟主资格。</p>
+<p>武汉理工大学的世界排名数据，有一大半是他老人家的引用量贡献托起来的。</p>
+<p>江湖笑谈：「武汉理工在排行榜上能跟顶尖高校掰手腕，余教授一人顶半壁江山——另外半壁，是麦立强。」</p>
+<hr />
+<h3>第四神将·「少壮派领袖」麦立强教授（现任副校长）</h3>
+<p><strong>外号：单纳米线巫师、电池门主</strong></p>
+<p>年轻人看麦立强，总有一种「这人怎么这么猛」的困惑。</p>
+<p>身为武汉理工副校长，麦教授手下的实验室日夜轰鸣，产出《Nature》《Science》论文如同流水线——不是在发，就是在审，要不就是在写。</p>
+<p>他的成名绝技，叫做<strong>「单纳米线电化学术」</strong>：在显微镜下给<strong>一根</strong>头发万分之一粗细的纳米线做电池充放电测试。<br />
+这就好比在一根绣花针上打太极，外人看得眼花缭乱，麦教授却从中破解了电池容量衰减的终极密码。</p>
+<p>他的终极目标：让电池充得更快，放得更久，不爆炸，不衰老。</p>
+<p>有弟子问：「师父，这研究何时才能装进我的手机？」</p>
+<p>麦教授答：「等我副校长的事少一点。」</p>
+<p>众弟子：「……」</p>
+<hr />
+<h2>第二卷·北京航空航天大学：「铸天派」</h2>
+<p><strong>门派气质：一切为了上天</strong></p>
+<p>北航材料学院的走廊里，挂着一句不成文的门规：<br />
+「你搞出来的材料，得能上天。」</p>
+<hr />
+<h3>掌门·「3D打印战神」王华明院士</h3>
+<p><strong>外号：钛合金屠夫、C919的骨骼造型师</strong></p>
+<p>世界上有多少国家能用激光把钛合金"打印"出一个完整的飞机承力骨架？</p>
+<p>答案：<strong>一个</strong>。</p>
+<p>就是中国，就是王华明。</p>
+<p>王院士用激光把金属粉末一层一层熔化堆叠，造出了比传统锻造更轻、更强的复杂金属结构件。<br />
+C919国产大飞机的关键承力框架，歼-20战斗机的钛合金骨骼，都有他的功劳。</p>
+<p>有人问：「王院士，您的技术有多牛？」</p>
+<p>王院士：「我们做到的事，全球只有我们做到。」</p>
+<p>这不是吹牛，这是写进论文验证过的事实。</p>
+<p>旁人感叹：「人家的3D打印机打手办，王院士的3D打印机打战斗机。」</p>
+<hr />
+<h3>副掌门·「涂层裁缝」宫声凯院士</h3>
+<p><strong>外号：给发动机穿外套的人</strong></p>
+<p>航空发动机叶片工作时，周围温度可以超过1700℃，比铁的熔点还高。<br />
+叶片为什么不化？</p>
+<p>因为有宫院士给它穿了一件极薄的「热障涂层陶瓷外衣」。</p>
+<p>这件外衣厚不过零点几毫米，却能把叶片表面温度隔绝数百度。<br />
+宫院士把这门手艺钻研了几十年，打破了西方技术封锁，让中国的航空发动机终于有了自己的「防热外套」。</p>
+<p>江湖戏言：「宫院士是全中国最贵的裁缝，他的客户不是人，是发动机。」</p>
+<hr />
+<h3>奇侠·「矿山走出的Science狂人」赵立东教授</h3>
+<p><strong>外号：阜新矿院逆袭者、SnSe屠榜客、Science连发机</strong></p>
+<blockquote>
+<p>「江湖最怕的不是豪门子弟，而是那个从犄角旮旯冒出来、一声不吭把你按在地上摩擦的人。」</p>
+</blockquote>
+<p>赵立东，1979年生，哈尔滨人。</p>
+<p>本科就读于<strong>辽宁工程技术大学</strong>——前身是阜新矿业学院，一所煤矿城市里的地方院校，从校名到地理位置，都与「顶尖科研」八竿子打不着。</p>
+<p>然而就是这个起点，偏偏走出了一个日后让《Nature》《Science》编辑部都要侧目的人物。</p>
+<p>赵立东一路靠硬实力杀出重围：本科、硕士扎根辽工大，博士考入北京科技大学，此后辗转法国巴黎十一大、美国西北大学做博士后，2014年以北航「卓越百人」身份回国——从阜新矿院到西北大学（Vinnie等级的材料强校），这条路走了十三年。</p>
+<p>许多人到这里便以为故事结束了。赵立东才刚刚开始。</p>
+<p>他选定的赛道，是<strong>热电材料</strong>——把温差转化为电能，或把电能变成制冷效果，听起来不如电池、芯片那么性感，却是新能源与深空探测的底层基础。他盯上了一种叫做<strong>硒化锡（SnSe）</strong>的层状晶体，别人没把它当回事，他偏偏在里面看到了宝藏。</p>
+<p>2014年，他以第一作者身份，在《<strong>Nature</strong>》发文，宣布SnSe单晶的热电性能创下世界纪录——ZT值高达2.6，超越了此前所有已知材料。</p>
+<p>江湖为之一震。</p>
+<p>此后，赵立东开始了堪称恐怖的连续输出：</p>
+<p><strong>自2015年入职北航至今，他以北航为第一单位，在《Science》连续发表了8篇论文。</strong></p>
+<p>平均算下来，差不多<strong>一年一篇Science</strong>。</p>
+<p>这不是运气，这是系统性地在一个赛道上把对手碾碎。</p>
+<p>他的引用总量已突破<strong>4万次</strong>，H因子达<strong>95</strong>，常年霸榜科睿唯安全球高被引学者。回国5年，国家杰青、长江学者、北京杰青、国际热电学会青年科学家奖……各路名衔悉数收入囊中，如囊中取物。</p>
+<p>如今，他担任北航材料学院院长。</p>
+<p>那个从阜新矿业学院出发的年轻人，管着中国顶尖的航空材料学院。</p>
+<p>江湖中有人问：「赵教授，您本科在矿业学院，是不是走了很多弯路？」</p>
+<p>赵立东答：「矿工懂得一件事——不挖，永远见不到金子。」</p>
+<p>众人沉默，随后大悟。</p>
+<p>这便是江湖最经典的桥段：<strong>出身不决定终点，只有凿下去的深度才算数。</strong></p>
+<hr />
+<h2>第三卷·清华大学：「学海天宗」</h2>
+<p><strong>门派气质：探索物质的终极底层逻辑</strong></p>
+<p>清华材料的学者，个个有种奇特的气质——他们不满足于「做出好材料」，他们要搞清楚「为什么这个材料是好的」。</p>
+<hr />
+<h3>「单原子宗师」李亚栋院士</h3>
+<p><strong>外号：纳米界的掌门人他爸</strong></p>
+<p>如果给中国纳米材料学界画一张族谱，李亚栋院士就是那棵根最深的老树。</p>
+<p>他创立了纳米材料合成的多项基础方法，近年来更开辟「单原子催化」这条全新赛道——把铂、钯等天价贵金属催化剂缩减到<strong>一个原子</strong>的极限，催化效率直冲满分，成本直线下降。</p>
+<p>更恐怖的是，他还培养出了几十位杰青、优青教授，散落全国各大高校开枝散叶。</p>
+<p>江湖称此为「李亚栋门派」，势力之大，弟子之众，堪称材料学界最能打的「传销网络」（褒义）。</p>
+<hr />
+<h3>「隐身魔法师」周济院士</h3>
+<p><strong>外号：操控电磁波的人</strong></p>
+<p>超材料，是一种自然界中根本不存在的神奇材料。</p>
+<p>周济院士将其研究了大半生：通过设计微结构，让电磁波按照人类意志弯曲传播——雷达波绕过目标，目标在雷达屏幕上消失。</p>
+<p>「隐身」，不是魔法，是材料学。</p>
+<hr />
+<h3>「超算炼丹师」段文晖院士</h3>
+<p><strong>外号：用超级计算机炒菜的人</strong></p>
+<p>传统材料研究：混料→烧结→测试→失败→再混料……周而复始，像无尽的厨房实验。</p>
+<p>段文晖院士不进厨房，他进机房。</p>
+<p>他用量子力学方程加超算算力，直接在原子尺度上<strong>预测</strong>材料的性能，告诉实验同行：「这个配比不用试，不行的；那个结构可以做，理论上没问题。」</p>
+<p>极大地省去了材料研究中「炒菜炒废了」的损耗。</p>
+<p>弟子问：「段老师，您这算是实验派还是计算派？」</p>
+<p>段院士答：「我是不做实验，但不耽误别人做实验的派。」</p>
+<hr />
+<h2>第四卷·北京科技大学：「百炼钢宗」</h2>
+<p><strong>门派气质：从钢铁起家，往万物进化</strong></p>
+<p>北科大前身是「北京钢铁学院」，这门派的基因里刻着两个字：<strong>硬核</strong>。</p>
+<hr />
+<h3>「材料基因掌门」谢建新院士</h3>
+<p><strong>外号：AI炼材第一人</strong></p>
+<p>谢院士做了一件可能让未来的材料学家失业的事——</p>
+<p>他把AI和大数据请进了材料研发流程，立志用<strong>高通量计算+机器学习</strong>，替代人类数十年的「炒菜式」反复试错。<br />
+他是中国「材料基因工程」重大专项的首席科学家，代表的是整个材料学界从「经验驱动」到「数据驱动」的范式革命。</p>
+<p>此举之大，江湖震动。传统炼材老师傅闻言，纷纷感叹：<br />
+「以后炉子边上，坐的是算法，不是人了。」</p>
+<hr />
+<h3>「强韧破限者」吕昭平教授</h3>
+<p><strong>外号：「鱼与熊掌」终结者</strong></p>
+<p>金属材料界有一个千古难题：<strong>强度越高越脆，越韧越软</strong>，鱼与熊掌，不可兼得。</p>
+<p>吕昭平说：兼得。</p>
+<p>他通过精妙的成分设计，在高熵合金和新型钢铁中造出了「纳米共格析出相」，让材料既硬如铁石又韧如弹簧，打破了这个困扰材料学家百年的诅咒。</p>
+<p>《Nature》《Science》为他敞开大门，材料学界为他鼓掌。</p>
+<hr />
+<h2>第五卷·群雄并起——中科院系的超然存在</h2>
+<p><strong>定位：超然于高校之上的「化外高人」</strong></p>
+<hr />
+<h3>「纳米孪晶王者」卢柯院士（中科院金属所）</h3>
+<p><strong>外号：38岁的院士、打破魔咒的人</strong></p>
+<p>卢柯，38岁当选中科院院士，是当时最年轻的一批。</p>
+<p>他的「纳米孪晶结构」研究，同样打破了金属强度与塑性的鱼熊困境，拿下了中国基础科学最高荣誉——<strong>国家自然科学奖一等奖</strong>。</p>
+<p>在金属所实验楼里，有一个流传多年的江湖段子：</p>
+<p>「卢院士的实验室，进去的是铜，出来的是奇迹。」</p>
+<hr />
+<h3>「造孔炼金师」赵东元院士（复旦大学）</h3>
+<p><strong>外号：给材料打孔的人，国家奖帆布袋大侠</strong></p>
+<p>赵东元院士发明了「FDU系列介孔材料」——在纳米尺度上给材料打满均匀小孔，让催化剂的接触面积大幅提升。<br />
+这技术直接用于石油炼化，把劣质原油变成高品质汽油，为国家能源化工省下了数不清的成本。</p>
+<p>他也因此拿下了国家自然科学奖一等奖。</p>
+<p>颁奖那天，赵院士把最重要的科研数据放在一个帆布袋里带去了人民大会堂，结果颁完奖出来……帆布袋忘在里面了。</p>
+<p>全场工作人员紧急寻找，最终失而复得。</p>
+<p>此后材料学界流传一句话：「做科研要有赵东元精神——数据比奖状金贵，帆布袋比皮包可靠。」</p>
+<hr />
+<h3>「稀土守门人」严纯华院士（北大/兰大）</h3>
+<p><strong>外号：中国稀土命门的锁匠</strong></p>
+<p>中国稀土储量全球第一，却长期只能卖「白菜价」——因为提纯技术不行，高纯稀土全靠进口。</p>
+<p>严纯华院士做了一件事：把高纯度重稀土分离的串级萃取技术从零打通，让中国真正掌握了稀土产业链的技术制高点。</p>
+<p>从此，手机里的振动马达、雷达里的磁性元件、新能源车的永磁电机，背后的高纯稀土，中国人说了算。</p>
+<p>江湖称之：「别人守金山，严院士守的是藏在石头里的命脉。」</p>
+<hr />
+<h2>番外卷·「江湖异侠录」——三位改写规则的奇人</h2>
+<blockquote>
+<p>有一类人，不属于任何门派的中心，却偏偏在边缘地带打出了震动天下的一拳。他们是江湖上的异数，是规则的颠覆者。</p>
+</blockquote>
+<hr />
+<h3>异侠之一·「Y6教母」邹应萍教授（中南大学）</h3>
+<p><strong>外号：有机光伏的规则制定者、养活全球课题组的女人</strong></p>
+<p>中南大学，以冶金、粉末、重金属著称。<br />
+走进这里，满眼是炉火与金属，空气里弥漫着工业的气息。</p>
+<p>偏偏有一个人，在这里搞起了有机高分子太阳能电池。</p>
+<p>她叫<strong>邹应萍</strong>。</p>
+<p>有机太阳能电池的核心难题，是找到一种叫做「非富勒烯受体」的材料——它决定了太阳光有多少能被转化成电。<br />
+这个领域沉寂多年，各路英豪试尽各种配方，效率始终徘徊在低位，像一扇怎么也推不开的大门。</p>
+<p>2019年，邹应萍团队推开了它。</p>
+<p>她们合成了一种后来被全球同行简称为「<strong>Y6</strong>」的非富勒烯受体材料。<br />
+这个材料一经发表，有机太阳能电池的光电转化效率应声跃过15%，随后在全球实验室不断被刷新——而每一篇刷新纪录的论文，几乎都要引用Y6，都要以Y6为参照。</p>
+<p>「Y6」从此成为有机光伏领域的<strong>度量衡</strong>。</p>
+<p>江湖惊呼：「她不是发了一篇论文，她是重新定义了这个赛道的起跑线。」</p>
+<p>更妙的是，全球无数做有机光伏的课题组，靠研究Y6及其衍生物发表论文、申请经费、培养学生——<br />
+邹教授，用一个分子，<strong>养活了国际上一大批科研同行</strong>。</p>
+<p>材料界私下流传：「你要想知道邹应萍有多牛，去数一数有多少人靠她的Y6活着。」</p>
+<hr />
+<h3>异侠之二·「发光命名者」唐本忠院士（香港科大→华南理工）</h3>
+<p><strong>外号：打破常识的人、给现象命名的人</strong></p>
+<p>科学史上有一种极高的荣耀，不是发现新材料，而是——</p>
+<p><strong>发现一种全新的自然规律，并由你来命名它。</strong></p>
+<p>唐本忠做到了。</p>
+<p>传统的发光材料有一个铁律：浓度越高，发光越弱，甚至完全熄灭。这个现象叫「浓度猝灭」，教科书写了几十年，无人质疑。</p>
+<p>唐本忠偏偏遇到了反常识的情况——他合成的某类分子，<strong>聚集在一起反而发光更强</strong>。</p>
+<p>旁人以为是实验误差，唐本忠盯着这个「错误」研究了下去。</p>
+<p>最终，他确认：这是一种全新的发光机制，与传统规律完全相反。</p>
+<p>他给它命名：<strong>「聚集诱导发光」（Aggregation-Induced Emission，AIE）</strong>。</p>
+<p>这四个字，此后出现在全球数万篇论文里，出现在生物医学荧光成像、癌症早期检测、OLED显示屏的前沿研究里。</p>
+<p>AIE是一个<strong>由中国科学家原创、在国际上命名、被全球追随</strong>的材料学概念。</p>
+<p>在整个科学史上，能做到这一点的中国学者，屈指可数。</p>
+<p>江湖有言：「大侠过招，最高境界不是打赢对手，是让对手按你定的规则打。唐本忠，是定规则的那个人。」</p>
+<p>如今，AIE相关的国际学术会议，每年都在全球各地举办，参与者来自几十个国家。<br />
+唐本忠坐在台上，礼貌微笑，心里清楚：<br />
+<strong>这个江湖，是他命名的。</strong></p>
+<hr />
+<h3>异侠之三·「最轻固体的缔造者」高超教授（浙江大学）</h3>
+<p><strong>外号：驯服石墨烯的人、让固体停在草尖上的人</strong></p>
+<p>石墨烯，是人类发现的最薄材料——仅一个原子厚，强度却是钢铁的200倍，导电性媲美铜。<br />
+2010年，发现它的两位科学家拿了诺贝尔物理学奖。</p>
+<p>然而江湖里有一个笑话：<br />
+「石墨烯什么都好，就是没法用。」</p>
+<p>在微观下强得离谱的材料，一旦被聚集成宏观可用的形态，性能便大打折扣，且难以成型——就好比一身好武功，却不知道怎么出拳。</p>
+<p>浙江大学的高超教授，花了多年时间，解决了这个问题。</p>
+<p>他的团队首先纺出了<strong>连续的石墨烯纤维</strong>——一根可以缠绕、编织、打结的碳纤维，导电性、强度两不误。</p>
+<p>但最让江湖沸腾的，是另一个成就——</p>
+<p>他们制造出了<strong>全碳气凝胶</strong>：一种极度多孔的固体材料，密度低到令人发指，轻到可以<strong>静静停在一株狗尾巴草的绒毛上，而不会压弯它</strong>。</p>
+<p>这个画面，被拍成照片，登上了《Nature》，随后传遍全球媒体。</p>
+<p>「世界上最轻的固体」，就此诞生于杭州。</p>
+<p>江湖当即封号：<strong>「驯服石墨烯第一人」</strong>。</p>
+<p>外人惊叹那张照片——草尖托着固体，如羽毛落于刀刃。<br />
+高超笑道：「这不是魔法，这是对材料微观结构的精确控制。」</p>
+<p>众人点头，随后继续惊叹。</p>
+<p>有时候，科学最动人的地方，就是它看起来像魔法，却每一步都有严格的推导。</p>
+<hr />
+<h2>终章·英雄谱收尾白</h2>
+<p>掩卷沉思，这份江湖英雄谱，写的不只是材料，更是一群人的一生。</p>
+<p>他们有人飞出了银河系，有人托住了战机，有人打破了千年金属魔咒，有人把废热送上太空，有人在显微镜下给单根纳米线做手术，有人把帆布袋落在了人民大会堂，有人用一个分子养活了全球同行，有人给全新的自然规律命名，有人让固体停在了草尖上……</p>
+<p>这江湖之大，装得下炼钢炉，也装得下一株狗尾草。</p>
+<p>这江湖从不缺热血，只缺认识他们的人。</p>
+<p><strong>正所谓：</strong></p>
+<blockquote>
+<p>刀锋不在剑，在烧结炉边；<br />
+英雄不问路，问《Nature》版面。<br />
+有人驯金属，有人命名光；<br />
+有人停草尖，有人飞太空。<br />
+江湖事了，拍拍袖，深藏实验室，不留名。</p>
+</blockquote>
+<p>——《中国材料学江湖英雄谱》，终。</p>
+<hr />
+<p><em>注：文章内容综合自各学者公开学术成就，以江湖笔法演绎，旨在传播科学精神，向真正的材料学英雄们致敬。</em></p>
+    <div class="seal"><div class="seal-inner">材料学江湖 · 英雄谱</div></div>
+  </div>
+  <div class="roller"></div>
+</div>
+</body>
+</html>
