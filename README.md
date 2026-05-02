@@ -56,23 +56,23 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="url3" style="height:200px; object-fit:cover; flex:1;">
-    <img src="url4" style="height:200px; object-fit:cover; flex:1;">
+    <img src="武汉理工大学 新图书馆.webp" style="height:200px; object-fit:cover; flex:1;">
+    <img src="武汉工学院.jpg" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="url5" style="height:200px; object-fit:cover; flex:1;">
-    <img src="url6" style="height:200px; object-fit:cover; flex:1;">
+    <img src="武汉工学院-图书馆.png" style="height:200px; object-fit:cover; flex:1;">
+    <img src="武汉工学院 腾飞广场.jpeg" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="url7" style="height:200px; object-fit:cover; flex:1;">
-    <img src="url8" style="height:200px; object-fit:cover; flex:1;">
+    <img src="武汉工学院 体育馆.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="武汉工业大学校门.jpeg@660x440" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="url9" style="height:200px; object-fit:cover; flex:1;">
-    <img src="url10" style="height:200px; object-fit:cover; flex:1;">
+    <img src="桂竹园.webp" style="height:200px; object-fit:cover; flex:1;">
+    <img src="wuhanligong.jpg" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
 </div>
