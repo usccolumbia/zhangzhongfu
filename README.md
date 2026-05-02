@@ -65,6 +65,7 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="武汉工学院-图书馆.png" style="height:200px; object-fit:cover; flex:1;">
     <img src="武汉工学院 腾飞广场.jpeg" style="height:200px; object-fit:cover; flex:1;">
+          <img src="武汉理工大学校徽.png" style="height:200px; object-fit:cover; flex:1;">    
   </div>
 
   <div style="display: flex; gap: 10px;">
@@ -80,7 +81,6 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="桂竹园.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="zhangtalk.png" style="height:200px; object-fit:cover; flex:1;">
-    <img src="武汉理工大学校徽.png" style="height:200px; object-fit:cover; flex:1;">    
   </div>
 
   <div style="display: flex; gap: 10px;">
