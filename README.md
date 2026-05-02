@@ -65,9 +65,6 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="武汉工学院-图书馆.png" style="height:200px; object-fit:cover; flex:1;">
     <img src="wuhanligong.jpg" style="height:200px; object-fit:cover; flex:1;">
-    
-
-    
   </div>
 
   <div style="display: flex; gap: 10px;">
