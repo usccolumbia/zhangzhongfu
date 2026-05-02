@@ -59,6 +59,7 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
     <img src="images/whlg-history.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="武汉理工大学.jpeg" style="height:200px; object-fit:cover; flex:1;">
     <img src="武汉理工大学校门.webp" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/whlg-building.jpg" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
@@ -88,7 +89,6 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="images/whlg-building.jpg" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/whlg-auto.webp" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
