@@ -97,7 +97,7 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="images/whlg-meeting.webp" style="height:200px; object-fit:cover; flex:1;">
      <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" style="height:200px; object-fit:cover; flex:1;">
-    <img src="images/whlg-campuses.webp" style="width:260px; object-fit:cover; flex:1;">
+    <img src="images/whlg-campuses.webp" style="width:230px; object-fit:cover; flex:1;">
 
   </div>
 
