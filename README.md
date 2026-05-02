@@ -64,12 +64,12 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
   <div style="display: flex; gap: 10px;">
     <img src="武汉工学院-图书馆.png" style="height:200px; object-fit:cover; flex:1;">
-    <img src="武汉工学院.jpg" style="height:200px; object-fit:cover; flex:1;">
     <img src="武汉工学院 腾飞广场.jpeg" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
     <img src="wuhanligong.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/whlg-auto.webp" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
@@ -84,12 +84,13 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="images/gate1.jpg" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/gate1.jpg" style="height:200px; object-fit:cover; flex:1;">    
+      <img src="武汉工学院.jpg" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/gate2.jpg" style="height:200px; object-fit:cover; flex:1;">
+      
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="images/whlg-auto.webp" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
