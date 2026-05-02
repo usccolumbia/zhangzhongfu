@@ -87,7 +87,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="images/gate1.jpg" style="height:200px; object-fit:cover; flex:1;">    
     <img src="images/海南的武汉理工大学三亚科教创新园.webp" style="height:200px; object-fit:cover; flex:1;">
-      
+    <img src="images/gate2华师大.jpg" style="height:200px; object-fit:cover; flex:1;">
+
   </div>
 
   <div style="display: flex; gap: 10px;">
