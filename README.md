@@ -134,5 +134,5 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
 
 ===
-![欢迎来到武汉理工大学](https://www.whut.edu.cn/)
+欢迎来到武汉理工大学 [Link](https://www.whut.edu.cn/)
 
