@@ -86,22 +86,23 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   <div style="display: flex; gap: 10px;">
     <img src="images/whlg-building.jpg" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/whlg-auto.webp" style="height:200px; object-fit:cover; flex:1;">
-    <img src="images/whlg-campuses.webp" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
     <img src="images/whlg-meeting.webp" style="height:200px; object-fit:cover; flex:1;">
      <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" style="height:200px; object-fit:cover; flex:1;">
- 
+     <img src="images/whlg-history.webp" style="height:200px; object-fit:cover; flex:1;">
+
   </div>
 
   <div style="display: flex; gap: 10px;">
-    <img src="images/whlg-history.webp" style="height:200px; object-fit:cover; flex:1;">
   </div>
 
   <div style="display: flex; gap: 10px;">
     <img src="images/whlt-admin.webp" style="height:200px; object-fit:cover; flex:1;">
     <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" style="height:200px; object-fit:cover; flex:1;">
+    <img src="images/whlg-campuses.webp" style="height:200px; object-fit:cover; flex:1;">
+
   </div>
 
   <div style="display: flex; gap: 10px;">
@@ -112,48 +113,6 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
 
 ===
-<div style="
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-">
 
-  <img src="武汉理工大学.jpeg" style="height:220px; width:100%; object-fit:cover;">
-  <img src="武汉理工大学校门.webp" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="武汉理工大学 新图书馆.webp" style="height:220px; width:100%; object-fit:cover;">
-  <img src="武汉工学院.jpg" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="武汉工学院 腾飞广场.jpeg" style="height:220px; width:100%; object-fit:cover;">
-  <img src="武汉工学院-图书馆.png" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="wuhanligong.jpg" style="height:220px; width:100%; object-fit:cover;">
-  <img src="武汉工学院 体育馆.jpg" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="武汉工业大学校门.jpeg@660x440" style="height:220px; width:100%; object-fit:cover;">
-  <img src="桂竹园.webp" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="zhangtalk.png" style="height:220px; width:100%; object-fit:cover;">
-  <img src="武汉理工大学校徽.png" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="images/gate1.jpg" style="height:220px; width:100%; object-fit:cover;">
-  <img src="images/gate2.jpg" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="images/whlg-building.jpg" style="height:220px; width:100%; object-fit:cover;">
-  <img src="images/whlg-auto.webp" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="images/whlg-campuses.webp" style="height:220px; width:100%; object-fit:cover;">
-  <img src="images/whlg-meeting.webp" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="images/武汉人工智能与新能源汽车工业技术研究院.webp" style="height:220px; width:100%; object-fit:cover;">
-  <img src="images/whlg-history.webp" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="images/whlt-admin.webp" style="height:220px; width:100%; object-fit:cover;">
-  <img src="images/南湖图书馆心至楼学生沉浸在书海.webp" style="height:220px; width:100%; object-fit:cover;">
-
-  <img src="images/南湖校区大学生创新创业园.webp" style="height:220px; width:100%; object-fit:cover;">
-  <div></div> <!-- filler to keep grid aligned -->
-
-</div>
 
 
