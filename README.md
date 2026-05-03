@@ -130,6 +130,8 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
   </div>
 
   <div style="display: flex; gap: 10px;">
+                <img src="images/武汉工学院校门2.jpg" style="height:202px; object-fit:cover; flex:1;">
+
          <img src="images/武汉工学院校门.png" style="height:202px; object-fit:cover; flex:1;">
           <img src="images/武汉汽车工业大学校门.png" style="height:202px; object-fit:cover; flex:1;">
   </div>
