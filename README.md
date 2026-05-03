@@ -99,8 +99,7 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
   </div>
 
-  <div style="display: flex; gap: 10px;">
-  </div>
+
 
   <div style="display: flex; gap: 10px;">
     <img src="images/whlg-meeting.webp" style="height:200px; object-fit:cover; flex:1;">
@@ -128,6 +127,11 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
           <img src="images/lib4.jpg" style="height:210px; object-fit:cover; flex:1;">
           <img src="images/lib5.jpg" style="height:210px; object-fit:cover; flex:1;">
           <img src="images/lib6.jpg" style="height:210px; object-fit:cover; flex:1;">
+  </div>
+
+  <div style="display: flex; gap: 10px;">
+         <img src="images/武汉工学院校门.png" style="height:202px; object-fit:cover; flex:1;">
+          <img src="images/武汉汽车工业大学校门" style="height:202px; object-fit:cover; flex:1;">
   </div>
   
 </div>
