@@ -140,4 +140,5 @@ http://lzzx.liuzhou.gov.cn/xqzx/lnq/zxgz_liunan/200805/t20080512_98264.html
 
 ===
 欢迎来到武汉理工大学 [Link](https://www.whut.edu.cn/)
-![文本转语音minimax](https://www.minimax.io/audio/text-to-speech)
+[](语音版)
+[文本转语音minimax](https://www.minimax.io/audio/text-to-speech)
